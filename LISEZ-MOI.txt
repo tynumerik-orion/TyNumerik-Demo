@@ -1,0 +1,17 @@
+TyNumérik — Démo TyHTML PWA
+
+Ce dossier contient une version installable de la démo :
+- index.html
+- manifest.webmanifest
+- sw.js
+- icônes PWA
+
+IMPORTANT :
+Une PWA ne peut pas être installée correctement en ouvrant directement index.html depuis les téléchargements du téléphone.
+Elle doit être servie depuis une adresse web en HTTPS (par exemple GitHub Pages ou Cloudflare Pages), ou depuis localhost pendant un test local.
+
+Une fois hébergée :
+1. Ouvrir l’adresse dans Chrome sur Android.
+2. Attendre quelques secondes.
+3. Utiliser le bouton « Installer la démo » s’il apparaît, ou le menu ⋮ > Ajouter à l’écran d’accueil / Installer l’application.
+4. Après la première ouverture, la démo reste disponible hors ligne grâce au service worker.

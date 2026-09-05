@@ -1,0 +1,29 @@
+{
+  "name": "TyNumérik — Démo TyHTML",
+  "short_name": "TyNumérik",
+  "description": "Démo interactive TyHTML présentant plusieurs applications de l’écosystème TyNumérik.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#d4d8cf",
+  "theme_color": "#5b334f",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
